@@ -7,8 +7,10 @@ import Contacts from './src/views/Contact';
 import SettingDetails from './src/views/SettingDetails';
 import UtilityFirstExample from './src/views/UtilityFirstEx';
 import NBTab from './src/navigations/NBTab';
-import MainRoot from './src/Belanja/Tab/MainRoot';
+import MainRoot from './src/Belanja/BarNav/MainRoot'
 import { NativeBaseProvider } from 'native-base';
+import FlatListHome from './src/views/FlatListHome';
+import FlatListDetail from './src/views/FlatListDetail';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,6 +25,8 @@ function App() {
     //     <Stack.Screen name="UtilityFirstEx" component={UtilityFirstExample} />
     //     <Stack.Screen name="SettingDetails" component={SettingDetails} />
     //     <Stack.Screen name="NBTab" component={NBTab} options={{ headerShown: false }} />
+    //     <Stack.Screen name="FlatList" component={FlatListHome} />
+    //     <Stack.Screen name="FlatListDetail" component={FlatListDetail} />
     //   </Stack.Navigator>
     // </NavigationContainer>
     //End Stack Navigator

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "364468748530",
+    "project_id": "rn-training-fb",
+    "storage_bucket": "rn-training-fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364468748530:android:c5f4578878dbef0d4a906b",
+        "android_client_info": {
+          "package_name": "com.trainingreactnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364468748530-t6nmpnlrrv18bgdim11jfttsugj7p7oe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdd0BjNEVLCp99ZmO3qwd0udhq1vgb4VA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364468748530-t6nmpnlrrv18bgdim11jfttsugj7p7oe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

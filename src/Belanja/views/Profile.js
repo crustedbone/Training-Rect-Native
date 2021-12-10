@@ -1,8 +1,11 @@
 import { Box, HStack, Pressable, Text, VStack } from 'native-base'
-import React from 'react'
+import React, { useContext } from 'react'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import { RootContext } from '../BarNav/MainRoot'
 
 export default function Profile({ navigation }) {
+    const { uName } = useContext(RootContext)
+
     return (
         <Box p="4">
             <Pressable onPress={() => navigation.navigate("ProfileDetail")}>
@@ -22,7 +25,7 @@ export default function Profile({ navigation }) {
                                     1000 points
                                 </Text>
                                 <Text color="white" fontSize="lg">
-                                    Raihan Shidqi Putrandi
+                                    {uName}
                                 </Text>
                             </VStack>
                         </Box>

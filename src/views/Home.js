@@ -35,6 +35,12 @@ export default function Home({ navigation }) {
                     navigation.navigate('NBTab');
                 }}
             />
+            <Button
+                title="Flat list"
+                onPress={() => {
+                    navigation.navigate('FlatList');
+                }}
+            />
         </View>
     )
 }
